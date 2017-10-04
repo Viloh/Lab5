@@ -1,0 +1,121 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0 auto;
+	width: 800px;
+	border: 0.5px solid;
+	border-color: #5d4d51;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+figure{
+	text-align: center;
+}
+
+#face{
+	width: 250px;
+	border-radius: 50%;
+	border: 0.5px solid;
+	display: inline-block;
+	margin: 10px;
+}
+
+h1{
+	color: #584a47;
+ 	margin: 0;
+}
+
+h2{
+	margin: 10px;
+	color: white;
+	background-color: #584a47;
+}
+
+h3{
+	margin: 0 0 10px 0;
+	color: white;
+}
+
+#pageC{
+	margin: 20px;
+}
+
+main{
+	margin-bottom: 10px;
+}
+
+main div{
+	text-align: center;
+	background-color:  #584a47;
+	padding: 20px;
+	margin: 10px 0;
+	color: white;
+}
+
+form{
+	display: inline-block;
+}
+
+.textF{
+	border: none;
+	margin: 0 10px;
+	height: 20px;
+	width: 200px;
+	border-radius: 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#submit{
+	border: none;
+	margin: 0 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	background-color: #8ebfb6;
+	border-radius: 5px;
+	height: 20px;
+	width: 120px;
+}
+#submit1{
+	border: none;
+	margin: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	background-color: #8ebfb6;
+	border-radius: 5px;
+	height: 20px;
+	width: 650px;
+}
+
+footer{
+	background-color: #8ebfb6;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}
+footer p{
+	margin: 0;
+	color: white;
+}
+table tbody tr{
+	background-color: white !important;
+	border: none;
+}
+table tbody tr td{
+	border: none;
+}

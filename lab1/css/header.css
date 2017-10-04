@@ -1,0 +1,51 @@
+header{
+	text-align: center;
+}
+
+header nav{
+	text-align: center;
+}
+
+header nav ul{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid;
+}
+
+header nav ul li{
+	float: left;
+	margin:3px;
+	padding: 10px; 
+	background-color: #8ebfb6;
+	transition: all 0.5s linear;
+}
+
+header nav ul li:hover{
+	font-size: 28px;
+	transition: all 0.5s linear;
+	background: #584a47;
+}
+#headerImg{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 98%;
+	padding: 1%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+.active{
+	border-bottom: 2px solid #584a47;
+}
